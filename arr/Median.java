@@ -2,10 +2,15 @@ package arr;
 import java.util.*;
 public class Median {
 	public static void main(String[] args) {
-		int []arr= {1,2,5,4,7,9,6};
+		Scanner sc=new Scanner(System.in);
+		int s=sc.nextInt();
+		int arr[]=new int[s];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i]=sc.nextInt();
+		}
 		Arrays.sort(arr);
 		int b=arr.length/2;
-		System.out.println("median:"+arr[b]);
+		System.out.println("median:"+arr[b-1]+" "+arr[b]);
 		System.out.print(Arrays.toString(arr));
 		
 	}
