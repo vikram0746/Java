@@ -1,5 +1,6 @@
 package arr;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class HighestLowest {
@@ -25,8 +26,6 @@ public class HighestLowest {
 		}
 		System.out.println(min);
 		System.out.println(max);
-		
 	}
-
 }
 //method - Highest - lowest
