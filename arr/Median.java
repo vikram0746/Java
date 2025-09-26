@@ -10,8 +10,20 @@ public class Median {
 		}
 		Arrays.sort(arr);
 		int b=arr.length/2;
-		System.out.println("median:"+arr[b-1]+" "+arr[b]);
+		if(arr.length%2==0) {
+			System.out.println("median:"+arr[b-1]+" "+arr[b]);
+		}
+		else {
+		System.out.println("median:"+arr[b]);
+		}
 		System.out.print(Arrays.toString(arr));
-		
 	}
 }
+//6/2=3
+//b=3
+//a[b]+a[b-1=a[3]+a[2]
+//1,2,3,4,5,6
+//5/2=2.5=2
+//b=2
+//a[b]=a[2]
+//1,2,3,4,5

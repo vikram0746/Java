@@ -11,11 +11,9 @@ public class MeanIsingArray {
 		{
 			a[i]=in.nextInt();
 		}
-		
 		int sum=0;
 		for(int i=0;i<a.length;i++) {
 			sum+=a[i];
-			
 		}
 		double s=sum/a.length;
 		System.out.println(s);

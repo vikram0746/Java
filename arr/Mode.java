@@ -8,11 +8,14 @@ public class Mode {
 		for (int i = 0; i < a.length; i++) {
 			a[i]=sc.nextInt();
 		}
-		System.out.println(a[i]);
-		/*for (int i = 0; i < a.length; i++) {
-			for
-			if(a[i]==
-		}*/
+		for (int i = 0; i < a.length; i++) {
+			for (int j = i+1; j < a.length; j++) {
+				if(a[j]==a[i]) {
+					System.out.println("duplicate values"+a[i]);
+				}
+		}
+		}
+		
 	}
 	
 	
