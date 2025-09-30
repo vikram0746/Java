@@ -1,8 +1,9 @@
 package arr;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class RotateRight {
+public class ElementCloseToZero {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int s=sc.nextInt();
@@ -10,11 +11,10 @@ public class RotateRight {
 		for(int i=0;i<a.length;i++) {
 			a[i]=sc.nextInt();
 		}
-		for(int i=1;i<a.length;i++) {
-			System.out.print(a[i]);
+		Arrays.sort(a);
+		for(int i=a.length-1;i>=0;i--) {
+			System.out.println(a[i]);
 		}
-		System.out.print(a[0]);
-		
 	}
 
 }

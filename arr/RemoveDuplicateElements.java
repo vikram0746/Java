@@ -23,11 +23,7 @@ public class RemoveDuplicateElements {
             }
         }
     }
-		/*
-		 * for (int i = 0; i < a.length; i++) { boolean isduplicate=false; for (int j =
-		 * 0; j < i; j++) { if(a[i]!=a[j]) { isduplicate=true; break; } }
-		 * if(!isduplicate) { System.out.println(a[i]); } }
-		 */
+	
 	}
 
 
