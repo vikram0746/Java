@@ -3,13 +3,14 @@ package functions;
 public class Return {
 	static int vishnu() {
 		int a=10;
-		int c = 11;
+		int b = 11;
+		int c=a+b;
 		return c;
 	}
 	public static void main(String[] args) {
 		
-		int b= vishnu();
-		System.out.println(b);
+		 System.err.println(vishnu());
+		
 	}
 
 }

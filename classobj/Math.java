@@ -15,6 +15,11 @@ public class Math {
 	static double div(int a,int b) {
 		return b/a;
 	}
+	static int sound() {
+		int a=10;
+		int b=77;
+		return 0;
+	}
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers: ");
@@ -24,6 +29,7 @@ public class Math {
 		System.out.println("Multiply: "+Math.mul(a,b));
 		System.out.println("Subract: "+Math.sub(a,b));
 		System.out.println("Divide: "+Math.div(a,b));
+		System.out.println(sound());
 	}
 
 }
