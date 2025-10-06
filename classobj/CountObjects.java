@@ -13,8 +13,9 @@ public class CountObjects {
 		CountObjects a=new 	CountObjects();	
 		CountObjects v=new 	CountObjects();
 		s.display();
-		v.display();
-		a.display();
+		/*
+		 * v.display(); a.display();
+		 */
 	}
 
 }

@@ -6,11 +6,6 @@ public class ATM {
 	
 	
 	
-	
-	
-	
-	
-	
 	public static void main(String[] args) {
 		
 		
@@ -22,10 +17,9 @@ public class ATM {
 	
 
 }
-/*ATM System
-
-Private variables: pinNumber, balance
-
-Methods: checkPin(), withdraw(), deposit(), getBalance()
-
-Pin check சரியானால் மட்டுமே operation நடக்க வேண்டும்*/
+/*
+ * ATM System
+ * Private variables: pinNumber, balance
+ * Methods: checkPin(), withdraw(), deposit(), getBalance()
+ * Pin check சரியானால் மட்டுமே operation நடக்க வேண்டும்
+ */
