@@ -29,10 +29,10 @@ public class BankAccounts {
 
 }
 /*
- * Bank Account
- * 
- * Private variables: accountNumber, balance
- * 
- * Getters & Setters பயன்படுத்தி deposit(), withdraw(), getBalance() methods
- * உருவாக்கவும்.
+  Bank Account
+  
+  Private variables: accountNumber, balance
+  
+ Getters & Setters பயன்படுத்தி deposit(), withdraw(), getBalance() methods
+ உருவாக்கவும்.
  */
